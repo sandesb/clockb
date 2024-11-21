@@ -7,7 +7,7 @@ import CategoriesCard from '../components/CategoriesCard';
 const LandingPage = () => {
   return (
     <div>
-      <main>
+      <main className="bg-background">
         {/* Render Categories at the top */}
         <Categories />
 
@@ -29,7 +29,11 @@ const LandingPage = () => {
         </section>
 
         {/* Render Cards */}
-        <Cards />
+        <div className="px-12">
+
+        <Cards  />
+
+        </div>
 
         {/* Render Categories Card */}
         <CategoriesCard />
@@ -41,6 +45,11 @@ const LandingPage = () => {
           </h2>
           {/* Pass highlightFirst as true for special styling */}
           <Categories replaceFirstImage={true} />
+        <div className="px-6">
+
+        <Cards className=""/>
+        </div>
+
         </section>
       </main>
       <footer></footer>
