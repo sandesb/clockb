@@ -43,7 +43,7 @@ const LandingPage = () => {
         <CategoriesCard />
 
         {/* Render Hand-Picked Brands Section */}
-        <section className="py-8 text-center bg-background">
+        <section className="py-4 text-center bg-background">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">
             Hand-Picked Brands
           </h2>

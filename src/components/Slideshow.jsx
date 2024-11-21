@@ -51,7 +51,7 @@ const Slideshow = () => {
   const visibleSlides = slides.slice(currentIndex, currentIndex + 3);
 
   return (
-    <div className="relative w-full overflow-hidden bg-white px-4 md:px-8 lg:px-0">
+    <div className="relative w-full overflow-hidden bg-background px-4 md:px-8 lg:px-0">
       {/* Grid of 3 items */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full">
         {visibleSlides.map((slide, index) => (
@@ -71,7 +71,7 @@ const Slideshow = () => {
               <div className="absolute bottom-0 left-0 p-6 text-white">
                 <h3 className="text-xl font-bold mb-2">{slide.title}</h3>
                 <p className="text-sm mb-4">{slide.discount}</p>
-                <button className="px-3 py-1 bg-white text-black  text-xs font-medium hover:bg-gray-200">
+                <button className="px-3 py-1 bg-background text-black  text-xs font-medium hover:bg-gray-200">
                   Explore
                 </button>
               </div>
@@ -82,13 +82,13 @@ const Slideshow = () => {
 
       {/* Navigation Buttons */}
       <button
-        className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-white text-gray-800 p-2 rounded-full shadow-md hover:bg-gray-200"
+        className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-background text-gray-800 p-2 rounded-full shadow-md hover:bg-gray-200"
         onClick={handlePrev}
       >
         ‹
       </button>
       <button
-        className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-white text-gray-800 p-2 rounded-full shadow-md hover:bg-gray-200"
+        className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-background text-gray-800 p-2 rounded-full shadow-md hover:bg-gray-200"
         onClick={handleNext}
       >
         ›
