@@ -113,7 +113,7 @@ const Footer = () => {
             <h4 className="font-semibold mb-4 text-lg">Working Hours</h4>
             <p className="text-sm mb-4">Monday - Friday: 9:00 AM - 6:00 PM</p>
             <h4 className="font-semibold mb-4 text-lg">Let’s Join To Our Newsletters</h4>
-            <div className="flex flex-col sm:flex-row -ml-5">
+            <div className="flex flex-col sm:flex-row md:-ml-5">
               <input
                 type="email"
                 placeholder="Enter your email"

@@ -8,7 +8,8 @@ export default {
     extend: {
       colors: {
         background: "#f9f7f5",
-        secondary: "#007500", // Adding the secondary color
+        secondary: "#007500",
+        brown: "#553B36", // Adding the secondary color
       },
     },
   },

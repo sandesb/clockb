@@ -18,6 +18,7 @@ const categories = [
   { name: 'Utensils' },
   { name: 'Machineries' },
   { name: 'Cakes' },
+  
 ];
 
 const Categories = ({ replaceFirstImage = false }) => {
@@ -28,7 +29,7 @@ const Categories = ({ replaceFirstImage = false }) => {
           key={index}
           className="flex flex-col items-center justify-center gap-2 w-[calc(33.33%-12px)] sm:w-[calc(50%-12px)] md:w-auto"
         >
-          <div className="bg-[#f5efea] p-4 rounded-full">
+          <div className="bg-[#f5efea] p-4 rounded-full cursor-pointer">
             {/* Dynamically replace the first image if replaceFirstImage is true */}
             <img
               src={replaceFirstImage && index === 0 ? colored : images[index]}

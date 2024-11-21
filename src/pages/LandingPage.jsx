@@ -5,6 +5,8 @@ import Cards from '../components/Cards';
 import CategoriesCard from '../components/CategoriesCard';
 import Exclusive from '../components/Exclusive';
 import Footer from '../components/Footer';
+import Banner from '../components/Banner';
+import CoffeeSelection from '../components/CoffeeSelection';
 
 const LandingPage = () => {
   return (
@@ -17,7 +19,7 @@ const LandingPage = () => {
         <Slideshow />
 
         {/* Content Section */}
-        <section className="bg-background py-8 text-center">
+        <section className="bg-background py-8 sm:px-4 text-center">
           <h2 className="text-lg font-semibold text-gray-800">
             Kaffe Code Platform To
           </h2>
@@ -52,6 +54,10 @@ const LandingPage = () => {
         <Cards className=""/>
         </div>
         <Exclusive/>
+        <div className='px-8'>
+        <Banner/>
+        </div>
+        <CoffeeSelection/>
 
         </section>
       </main>

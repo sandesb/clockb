@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Search, Heart, ShoppingCart, Menu, X } from 'lucide-react'; // Import Lucide icons
-import logo from '../assets/logo.png'; // Import logo from assets folder
+import logo from '../assets/logo-transparant.png'; // Import logo from assets folder
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);

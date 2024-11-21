@@ -27,23 +27,20 @@ const exclusiveItems = [
 const Exclusive = () => {
   return (
     <section className="py-8 bg-background">
-      
-      <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-6 px-8 items-start">
+      <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-6 px-4 md:px-8 items-start">
         {/* Left Image Section */}
         <div>
           <img
             src={frameImage}
             alt="Kaffe Codes Story"
-            className="w-full  object-cover"
+            className="w-full object-cover"
           />
-     
         </div>
-        
 
         {/* Right Cards Section */}
-        <div className="grid grid-cols-2 gap-6 mt-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           {exclusiveItems.map((item) => (
-            <div key={item.id} className="w-80">
+            <div key={item.id} className="w-full">
               <CommonCard
                 image={item.image}
                 title={item.title}
