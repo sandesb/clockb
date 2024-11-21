@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Header from './components/Header'; 
+import Header from './theme/Header'; 
+import Footer from './theme/Footer';
 import LandingPage from './pages/LandingPage'; 
-
 import './App.css';
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<LandingPage />} />
         </Routes>
+        <Footer />
       </>
     </Router>
   );

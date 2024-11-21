@@ -4,7 +4,6 @@ import Slideshow from '../components/Slideshow';
 import Cards from '../components/Cards';
 import CategoriesCard from '../components/CategoriesCard';
 import Exclusive from '../components/Exclusive';
-import Footer from '../components/Footer';
 import Banner from '../components/Banner';
 import CoffeeSelection from '../components/CoffeeSelection';
 
@@ -61,7 +60,6 @@ const LandingPage = () => {
 
         </section>
       </main>
-      <Footer/>
     </div>
   );
 };
