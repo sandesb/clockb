@@ -66,12 +66,12 @@ const Slideshow = () => {
               className="w-full h-full object-cover "
             />
             {/* Gradient Overlay */}
-            <div className="absolute inset-0 rounded-lg">
-              <div className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-black to-transparent rounded-lg"></div>
+            <div className="absolute inset-0">
+              <div className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-black to-transparent "></div>
               <div className="absolute bottom-0 left-0 p-6 text-white">
                 <h3 className="text-xl font-bold mb-2">{slide.title}</h3>
                 <p className="text-sm mb-4">{slide.discount}</p>
-                <button className="px-3 py-1 bg-white text-black rounded-md text-xs font-medium hover:bg-gray-200">
+                <button className="px-3 py-1 bg-white text-black  text-xs font-medium hover:bg-gray-200">
                   Explore
                 </button>
               </div>
