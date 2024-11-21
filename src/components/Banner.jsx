@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <div className="relative bg-brown text-white py-4 px-6 flex items-center justify-center">
       {/* Left Section */}
-      <div className="absolute left-6 text-lg font-semibold">
+      <div className="absolute left-6 text-lg font-semibold ">
         Friday Special Offer at Kaffe Codes !!!
       </div>
 
@@ -18,7 +18,7 @@ const Banner = () => {
       <img
         src={bannerImage}
         alt="Special Offer"
-        className="absolute right-6 top-1 transform -translate-y-1/2 h-16 md:h-20 lg:h-24"
+        className="absolute right-6 transform -translate-y-1/2 h-16 md:h-20 lg:h-24"
         style={{ zIndex: 10 }}
       />
     </div>
