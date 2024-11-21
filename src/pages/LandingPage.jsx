@@ -3,6 +3,8 @@ import Categories from '../components/Categories';
 import Slideshow from '../components/Slideshow';
 import Cards from '../components/Cards';
 import CategoriesCard from '../components/CategoriesCard';
+import Exclusive from '../components/Exclusive';
+import Footer from '../components/Footer';
 
 const LandingPage = () => {
   return (
@@ -49,10 +51,11 @@ const LandingPage = () => {
 
         <Cards className=""/>
         </div>
+        <Exclusive/>
 
         </section>
       </main>
-      <footer></footer>
+      <Footer/>
     </div>
   );
 };

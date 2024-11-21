@@ -6,7 +6,7 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white border-b w-full">
+    <header className="bg-background border-b w-full">
       <div className="flex h-16 items-center justify-between px-4 sm:px-6 lg:px-16 w-full max-w-screen-2xl mx-auto">
         {/* Logo Section */}
         <a href="#" className="flex items-center whitespace-nowrap">

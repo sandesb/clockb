@@ -17,14 +17,14 @@ const CommonCard = ({ image, title, brand, price, rating, reviews }) => {
   };
 
   return (
-    <div className="relative flex flex-col items-center bg-white shadow-md rounded-lg p-4 hover:shadow-lg transition-shadow duration-200">
+    <div className="relative flex flex-col items-center   p-4 transition-shadow duration-200">
       {/* Heart Icon */}
       <button className="absolute top-4 right-4">
         <Heart className="w-5 h-5 text-gray-400 hover:text-red-500" />
       </button>
 
       {/* Image */}
-      <div className="w-full h-32 flex justify-center items-center mb-4">
+      <div className="w-full  flex justify-center items-center ">
         <img
           src={image}
           alt={title}
